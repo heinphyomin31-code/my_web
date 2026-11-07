@@ -1,0 +1,548 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description"
+        content="Phyo Min Hein - IT Support and Google Workspace Administrator Portfolio">
+    <title>Phyo Min Hein</title>
+    <!-- Bootstrap -->
+    <link
+        href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+        rel="stylesheet">
+    <!-- Bootstrap Icons -->
+    <link
+        href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.css"
+        rel="stylesheet">
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+    <!-- Matrix Background -->
+    <canvas id="matrix-canvas" aria-hidden="true"></canvas>
+
+    <!-- Scanlines -->
+    <div class="scanlines"></div>
+
+    <!-- ================= NAVBAR ================= -->
+
+    <nav class="navbar navbar-expand-lg navbar-dark fixed-top terminal-nav">
+        <div class="container">
+            <a class="navbar-brand terminal-text fw-bold" href="#home">
+                &gt;_ PHYO@PORTFOLIO
+            </a>
+
+            <button
+                class="navbar-toggler"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#mainNav"
+                aria-controls="mainNav"
+                aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+
+            </button>
+
+            <div class="collapse navbar-collapse" id="mainNav">
+                <ul class="navbar-nav ms-auto text-uppercase">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#home">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#about">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#certificates">
+                            Certificates
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#projects">
+                            Projects
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#experience">
+                            Experience
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#education">
+                            Education
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#contact">
+                            Contact
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+
+    <!-- ================= MAIN ================= -->
+
+    <main>
+        <!-- ================= HOME ================= -->
+
+        <section id="home" class="hero-section section-padding">
+            <div class="container position-relative">
+                <div class="terminal-window mx-auto">
+                    <div class="terminal-header">
+                        <span class="terminal-dot"></span>
+                        <span class="terminal-dot"></span>
+                        <span class="terminal-dot"></span>
+                        <span class="terminal-title">
+                            bash — portfolio
+                        </span>
+
+                    </div>
+
+                    <div class="terminal-body">
+                        <p class="mb-2">
+                            <span class="prompt">
+                                root@Linux:~$
+                            </span>
+                            whoami
+                        </p>
+                        <h1
+                            class="display-3 fw-bold terminal-text glitch"
+                            data-text="Phyo Min Hein">
+                            Phyo Min Hein
+                        </h1>
+
+                        <p class="lead terminal-muted mb-4">
+                            IT Support & Google Workspace Administrator
+                        </p>
+
+                        <p class="terminal-muted">
+                            <span class="prompt">
+                                root@Linux:~$
+                            </span>
+                            <span id="typing-text"></span>
+                            <span class="cursor">▋</span>
+                        </p>
+                        <div class="d-flex flex-wrap gap-3 mt-4">
+                            <a href="#about" class="btn btn-terminal">
+                                ./about-me
+                            </a>
+                            <a href="#contact" class="btn btn-outline-terminal">
+                                ./contact
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+        <!-- ================= ABOUT ================= -->
+
+        <section id="about" class="section-padding">
+            <div class="container">
+                <div class="section-heading">
+                    <span>01</span> About
+                </div>
+                <div class="row g-4">
+                    <div class="col-lg-7">
+                        <div class="terminal-card h-100">
+                            <div class="card-label">
+                                $ cat about.txt
+                            </div>
+                            <h2>
+                                IT-focused problem solver.
+                            </h2>
+                            <p class="terminal-muted">
+                                I work across IT support and Google Workspace
+                                administration, helping users, managing cloud
+                                productivity environments, and solving
+                                day-to-day technical issues.
+                            </p>
+                            <p class="terminal-muted mb-0">
+                                My background includes NCC qualifications in
+                                Computing and practical IT Support experience.
+                            </p>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-5">
+                        <div class="terminal-card h-100">
+                            <div class="card-label">
+                                $ skills --list
+                            </div>
+                            <div class="skill-list">
+                                <span>Google Workspace</span>
+                                <span>IT Support</span>
+                                <span>System Administration</span>
+                                <span>Troubleshooting</span>
+                                <span>Computer Networking</span>
+                                <span>HTML / CSS / JavaScript / Python </span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+<!-- ================= CERTIFICATES ================= -->
+
+<section id="certificates" class="section-padding">
+    <div class="container">
+        <div class="section-heading">
+            <span>02</span> Certificates
+        </div>
+        <div class="row g-4">
+
+            <!-- NCC LEVEL 4 -->
+
+            <div class="col-md-6">
+                <div class="terminal-card certificate-card h-100">
+                    <div class="certificate-icon">
+                        <i class="bi bi-file-earmark-pdf"></i>
+                    </div>
+                    <div class="card-label">
+                        CERTIFICATE_01
+                    </div>
+                    <h3>
+                        NCC Level 4 Diploma in Computing
+                    </h3>
+                    <p class="terminal-muted">
+                        Diploma-level qualification in Computing.
+                    </p>
+                    <a
+                        href="certificates/ncc-level-4.pdf"
+                        target="_blank"
+                        class="btn btn-outline-terminal mt-3">
+                        <i class="bi bi-file-earmark-pdf"></i>
+                        View Certificate
+                    </a>
+                </div>
+            </div>
+
+            <!-- NCC LEVEL 5 -->
+
+            <div class="col-md-6">
+                <div class="terminal-card certificate-card h-100">
+                    <div class="certificate-icon">
+                        <i class="bi bi-file-earmark-pdf"></i>
+                    </div>
+                    <div class="card-label">
+                        CERTIFICATE_02
+                    </div>
+                    <h3>
+                        NCC Level 5 Diploma in Computing
+                    </h3>
+                    <p class="terminal-muted">
+                        Advanced diploma-level qualification in Computing.
+                    </p>
+                    <a
+                        href="certificates/ncc-level-5.pdf"
+                        target="_blank"
+                        class="btn btn-outline-terminal mt-3">
+                        <i class="bi bi-file-earmark-pdf"></i>
+                        View Certificate
+                    </a>
+                </div>
+            </div>
+
+            <!--KBZ-->
+            <div class="col-md-6">
+                <div class="terminal-card certificate-card h-100">
+                    <div class="certificate-icon">
+                        <i class="bi bi-file-earmark-pdf"></i>
+                    </div>
+                    <div class="card-label">
+                        CERTIFICATE_03
+                    </div>
+                    <h3>
+                        KBZ Certificate
+                    </h3>
+                    <p class="terminal-muted">
+                        KStudent Ambassador Program.
+                    </p>
+                    <a
+                        href="certificates/KBZ_Certificate.pdf"
+                        target="_blank"
+                        class="btn btn-outline-terminal mt-3">
+                        <i class="bi bi-file-earmark-pdf"></i>
+                        View Certificate
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+        <!-- ================= PROJECTS ================= -->
+
+        <section id="projects" class="section-padding">
+            <div class="container">
+                <div class="section-heading">
+                    <span>03</span> Projects
+                </div>
+                <div class="row g-4">
+
+
+                    <!-- PROJECT 1 -->
+
+                    <div class="col-md-6 col-lg-4">
+                        <div class="terminal-card project-card h-100">
+                            <div class="card-label">
+                                PROJECT_01
+                            </div>
+                            <h3>
+                                Terminal Portfolio
+                            </h3>
+                            <p class="terminal-muted">
+                                A responsive personal portfolio inspired
+                                by the CMatrix terminal aesthetic.
+                            </p>
+                            <div class="project-tech">
+                                HTML · CSS · JavaScript · Bootstrap
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- PROJECT 2 -->
+
+                    <div class="col-md-6 col-lg-4">
+                        <div class="terminal-card project-card h-100">
+                            <div class="card-label">
+                                PROJECT_02
+                            </div>
+                            <h3>
+                                Hospital Management System
+                            </h3>
+                            <p class="terminal-muted">
+                                A web-based Hospital Management System
+                                developed using PHP, MySQL, HTML, CSS
+                                and Bootstrap.
+                            </p>
+                            <div class="project-tech">
+
+                                PHP · MySQL · Bootstrap · XAMPP
+                            </div>
+                        </div>
+                    </div>
+
+
+                    <!-- PROJECT 3 -->
+
+                    <div class="col-md-6 col-lg-4">
+                        <div class="terminal-card project-card h-100">
+                            <div class="card-label">
+                                PROJECT_03
+                            </div>
+                            <h3>
+                                IT Support Toolkit
+                            </h3>
+                            <p class="terminal-muted">
+                                A collection of troubleshooting guides,
+                                documentation and useful IT support
+                                utilities.
+                            </p>
+                            <div class="project-tech">
+                                IT Support · Troubleshooting · Documentation
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+        <!-- ================= EXPERIENCE ================= -->
+
+        <section id="experience" class="section-padding">
+            <div class="container">
+                <div class="section-heading">
+                    <span>04</span> Experience
+                </div>
+                <div class="timeline">
+
+
+                    <!-- EXPERIENCE 1 -->
+
+                    <div class="timeline-item">
+                        <div class="timeline-marker"></div>
+                        <div class="terminal-card">
+                            <div class="card-label">
+                                EXPERIENCE_01
+                            </div>
+                            <h3>
+                                Google Workspace — Admin Role
+                            </h3>
+                            <p class="terminal-muted mb-0">
+                                Google Workspace administration and
+                                user-focused IT support responsibilities.
+                            </p>
+                        </div>
+                    </div>
+
+
+                    <!-- EXPERIENCE 2 -->
+
+                    <div class="timeline-item">
+                        <div class="timeline-marker"></div>
+                        <div class="terminal-card">
+                            <div class="card-label">
+                                EXPERIENCE_02
+                            </div>
+                            <h3>
+                                IT Support
+                            </h3>
+                            <p class="terminal-muted mb-0">
+                                Worked in an IT Support role for
+                                <strong>3 months</strong>, supporting
+                                users and resolving technical issues.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+        <!-- ================= EDUCATION ================= -->
+
+        <section id="education" class="section-padding">
+            <div class="container">
+                <div class="section-heading">
+                    <span>05</span> Education
+                </div>
+                <div class="terminal-card">
+                    <div class="row align-items-center g-4">
+                        <div class="col-md-2 text-center">
+                            <i class="bi bi-mortarboard-fill education-icon"></i>
+                        </div>
+                        <div class="col-md-10">
+                            <div class="card-label">
+                                EDUCATION
+                            </div>
+                            <h3>
+                                NCC Diplomas in Computing
+                            </h3>
+                            <p class="terminal-muted mb-0">
+                                NCC Level 4 Diploma in Computing
+                                <br>
+                                NCC Level 5 Diploma in Computing
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- ================= CONTACT ================= -->
+        <section id="contact" class="section-padding">
+            <div class="container">
+                <div class="section-heading">
+                    <span>06</span> Contact
+                </div>
+                <div class="terminal-card contact-card">
+                    <p class="mb-4">
+                        <span class="prompt">
+                            root@Linux:~$
+                        </span>
+                        ./connect-with-me
+                    </p>
+
+                    <div class="row g-3">
+                        <!-- EMAIL -->
+                        <div class="col-md-4">
+                            <a
+                                class="contact-link"
+                                href="mailto:heinphyomin31@gmail.com">
+                                <i class="bi bi-envelope"></i>
+                                <span>
+                                    heinphyomin31@gmail.com
+                                </span>
+                            </a>
+                        </div>
+
+                            <!-- PHONE -->
+                        <div class="col-md-6 col-lg-3">
+                            <a
+                                class="contact-link"
+                                href="tel:+959426764667">
+                                <i class="bi bi-telephone"></i>
+                                <span>
+                                    09 42 676 4667
+                                </span>
+                            </a>
+                        </div>
+
+                        <!-- GITHUB -->
+                        <div class="col-md-4">
+                            <a
+                                class="contact-link"
+                                href="https://github.com/"
+                                target="_blank"
+                                rel="noopener">
+                                <i class="bi bi-github"></i>
+                                <span>
+                                    GitHub
+                                </span>
+                            </a>
+                        </div>
+
+                        <!-- LINKEDIN -->
+                        <div class="col-md-4">
+                            <a
+                                class="contact-link"
+                                href="https://www.linkedin.com/"
+                                target="_blank"
+                                rel="noopener">
+                                <i class="bi bi-linkedin"></i>
+                                <span>
+                                    LinkedIn
+                                </span>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- ================= FOOTER ================= -->
+
+    <footer class="footer py-4">
+        <div class="container text-center">
+            <span class="terminal-muted">
+                © <span id="year"></span> Phyo Min Hein
+            </span>
+            <span class="mx-2">|</span>
+            <span class="terminal-text">
+                system.status = "online"
+            </span>
+        </div>
+    </footer>
+
+
+    <!-- BACK TO TOP -->
+
+    <button
+        id="backToTop"
+        class="back-to-top"
+        aria-label="Back to top">
+
+        <i class="bi bi-arrow-up"></i>
+    </button>
+
+    <!-- Bootstrap JavaScript -->
+    <script
+        src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js">
+    </script>
+    <!-- Custom JavaScript -->
+    <script src="js/script.js"></script>
+</body>
+</html>
